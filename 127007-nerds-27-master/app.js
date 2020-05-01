@@ -1,0 +1,1 @@
+console.log(`Hello New BLINK HTML-Academy`);

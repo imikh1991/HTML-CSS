@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["console","log"],"mappings":"AAAAA,OAAO,CAACC,GAAR","file":"app.c328ef1a.js","sourceRoot":"..","sourcesContent":["console.log(`Hello New BLINK HTML-Academy`);"]}

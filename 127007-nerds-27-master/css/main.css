@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+}
+
+.navigation-main {
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+}
+
+.header {
+    background-color: #eeeeee;
+}
+
+.navigation-list,
+.services-list,
+.about-list,
+.about-persentagelist,
+.brands-list,
+.social-list,
+.products-list,
+.products-pagination__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-list a {
+    color: black;
+}
+
+.navigation-list a:hover {
+    color: #fb565a;
+}
+
+.navigation-list a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.navigation-list a:focus { /* or try visited*/
+    color: black;
+    border-bottom: 2px solid #fb565a;
+}
+
+.header1 {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.header2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.header3 {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.header4 {
+    font-size: 18px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.about-list__item {
+    line-height: 45px;
+}
+
+.about-persentagelist {
+    display: flex;
+}
+
+.about-list__red-label {
+    border-bottom: 2px solid red;
+    padding-right: 25px;
+    margin-right: 20px;
+}
+
+.about-persentagelist__item {
+    max-width: 89px;
+    margin: 20px;
+}
+
+.about-persentagelist__persentage {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.about-persentagelist__text {
+    line-height: 18px;
+    padding-top: 30px;
+}
+
+.services-list h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.services-list {
+    line-height: 24px;
+    text-align: left;
+}
+
+.grey-circle {
+    height: 79px;
+    width: 79px;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    display: inline-block;
+} 
+
+.grey-circle img {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#vk-icon {
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+#fb-icon {
+    position: relative;
+    left: 32px;
+}
+

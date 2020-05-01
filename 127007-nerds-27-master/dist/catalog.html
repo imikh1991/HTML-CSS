@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/normalize.1114379f.css">
+    <link rel="stylesheet" href="/main.c52e0fe2.css">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation-main">
+        <a href="#" class="navigation-logo"> 
+            <img src="/nerds-logo.92fc867d.svg" alt="nerds logo">
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-list__item"><a href="#">Студия</a></li>
+          <li class="navigation-list__item"><a href="#">Клиенты</a></li>
+          <li class="navigation-list__item"><a href="/catalog.html">Магазин</a></li>
+          <li class="navigation-list__item"><a href="#">Контакты</a></li>
+        </ul>
+        <div class="navigation-cart">
+          <img class="navigation-cart__icon" src="/cart-icon.71708b4f.png" alt="cart icon">
+          <button class="navigation-cart__button">Корзина</button>
+        </div>
+      </nav>
+      <section class="hero">
+          <h1 class="hero-header header1">Магазин готовых шаблонов</h1>
+      </section>
+    </header>
+    <main class="container">
+        <section class="filter">
+            <form method="post" action="https://echo.htmlacademy.ru">
+                <fieldset>
+                    <legend class="hidden">Выберите свой шаблон</legend>
+                    <h2 class="filter-header">Стоимость:</h2>
+                    <div class="filter-slider">
+                        <label for="volume">
+                            <input type="range" id="volume" name="price-range" min="0" max="11"><span class="hidden">Volume</span>
+                        </label>
+                    </div>
+
+                    <div class="filter-range">    
+                        <label for="range-from">ОТ</label>
+                        <input type="text" name="range-from" id="range-from">
+                        <label for="range-until">ДО</label>
+                        <input type="text" name="range-until" id="range-until">
+                    </div>    
+
+                    <h2 class="filter-header">Сетка:</h2>
+                    <div class="filter-radio">
+                        <label for="adaptive">
+                            <input type="radio" id="adaptive" name="grid" value="adaptive">Адаптивная
+                        </label>
+                        
+                        <label for="fixed">
+                            <input type="radio" id="fixed" name="grid" value="fixed">Фиксированная
+                        </label>
+
+                        <label for="rubber">
+                            <input type="radio" id="rubber" name="grid" value="rubber">Резиновая
+                        </label>
+                    </div>
+                    
+                    <h2 class="filter-header">Особенности:</h2>
+                    <div class="filter-checkbox">
+                        <label for="slider">
+                            <input type="checkbox" id="slider" name="slider" checked="">Слайдер
+                        </label> 
+                    </div>
+                    <div class="filter-checkbox">
+                        <label for="advantages">    
+                            <input type="checkbox" name="advantages" id="advantages">Блок преимуществ
+                        </label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <label for="news">
+                            <input type="checkbox" name="news" id="news" checked="">Новости
+                        </label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <label for="gallery">
+                            <input type="checkbox" name="gallery" id="gallery">Галерея
+                        </label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <label for="cart">
+                            <input type="checkbox" name="cart" id="cart">Корзина
+                        </label>
+                    </div>
+                    <button class="filter-button" type="button">Показать</button>
+                </fieldset>
+            </form>    
+        </section>
+        <section class="products">
+            <div class="products-sort">
+                <h2 class="products-sort__header">Сортировать:</h2>
+                <span class="products-sort__by-price">По цене</span>
+                <span class="products-sort__by-type">По типу</span>
+                <span class="products-sort__by-name">По названию</span>
+            </div>
+            <div class="products-wrapper">
+                <ul class="products-list">
+                    <li class="products-list__item">
+                        <a href="#"><img src="/img-sedona-jpg.0aea580e.jpg" alt="sedona psd"></a>
+                    </li>
+                </ul>
+                <ul class="products-list">
+                    <li class="products-list__item">
+                        <a href="#"><img src="/img-pink-jpg.0c8457bb.jpg" alt="pink psd"></a>
+                    </li>
+                </ul>
+                <ul class="products-list">
+                    <li class="products-list__item">
+                        <a href="#"><img src="/img-barbershop-jpg.18f7062f.jpg" alt="borodincki psd"></a>
+                    </li>
+                </ul>
+                <ul class="products-list">
+                    <li class="products-list__item">
+                        <a href="#"><img src="/img-mishka-jpg.0ce086ab.jpg" alt="mishka psd"></a>
+                    </li>
+                </ul>
+                <ul class="products-list">
+                    <li class="products-list__item">
+                        <a href="#"><img src="/img-aplus-jpg.47bd9861.jpg" alt="a+ psd"></a>
+                    </li>
+                </ul>
+                <ul class="products-list">
+                    <li class="products-list__item">
+                        <a href="#"><img src="/img-kvast-jpg.2d25d13f.jpg" alt="kvast psd"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="products-pagination" aria-label="pagination">
+                <ul class="products-pagination__list">
+                    <li class="products-pagination__list-item"><a href="#">1</a></li>
+                    <li class="products-pagination__list-item"><a href="#">2</a></li>
+                    <li class="products-pagination__list-item"><a href="#">3</a></li>
+                    <li class="products-pagination__list-item"><a href="#">следующая</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="direction">
+            <img class="direction-map" src="/map.95858949.jpg" alt="map image">
+            <div class="direction-address">
+              <h3 class="direction-header header5">NЁRDS DESIGN STUDIO</h3>
+              <p>191186, Санкт-Петербург, 
+                ул. Б. Конюшенная, д. 19/8
+                <br>
+                тел. +7 (812) 275-75-75</p>
+                <button class="direction-sendbutton">Напишите нам</button>
+            </div>
+        </section>
+    </main>
+    <section class="dialog hidden">
+        <form action="#" method="“post”">
+            <p class="dialog-title">Напишите нам</p>
+            <ul class="dialog-inputs">
+                <li class="dialog-inputs__item">
+                    <label for="name">Ваше имя:
+                        <input type="text" id="name" name="login" placeholder="Имя Фамилия">
+                    </label>
+                </li>
+                <li class="dialog-inputs__item">
+                    <label for="mail">Ваш e-mail:
+                        <input type="email" id="mail" name="email" placeholder="email@example.com">
+                    </label>
+                </li>
+                <li class="dialog-inputs__item">
+                    <label for="msg">Текст письма:
+                        <textarea id="msg" name="user_message" placeholder="В свободной форме"></textarea>
+                    </label>
+                </li>
+                <li class="dialog-inputs__item">
+                    <button type="submit">Отправить</button>
+                </li>
+            </ul>
+        </form>
+    </section>
+    <footer class="social">
+        <ul class="social-list">
+            <li class="social-list__item"><img src="/vk-icon.84bcb2ae.svg" alt="vk icon"></li>
+            <li class="social-list__item"><img src="/fb-icon.a945e5f8.svg" alt="fb icon"></li>
+            <li class="social-list__item"><img src="/insta-icon.31089255.svg" alt="insta icon"></li>
+        </ul>
+        <h3 class="social-slogan">Давайте дружить, это выгодно!</h3>
+        <p class="social-subslogan">Скидка 10% для друзей из социальных сетей.</p>
+      </footer>
+  </body>
+
+</html>

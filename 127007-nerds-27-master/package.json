@@ -1,0 +1,15 @@
+{
+  "name": "127007-nerds-27-master",
+  "version": "1.0.0",
+  "description": "Илья Михайлюков 1-05-20",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "1.12.4"
+  }
+}
